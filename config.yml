@@ -1,0 +1,31 @@
+# Configurações do NexoraSouls
+settings:
+  pvp-soul-transfer-percentage: 50.0
+
+messages:
+  prefix: "&8[&bNexoraSouls&8] &7"
+  balance: "&fVocê possui &b{souls} &falmas."
+  pvp-loss: "&cVocê perdeu &4{souls} &calmas ao morrer para &e{killer}&c!"
+  pvp-gain: "&aVocê saqueou &2{souls} &aalmas de &e{victim}&a!"
+  mob-reward: "&aVocê ganhou &2+{souls} &aalmas por eliminar um mob!"
+
+mob-rewards:
+  ZOMBIE: 1
+  SKELETON: 1
+  ENDER_DRAGON: 100
+  WITHER: 75
+
+# A seção da loja fica reservada para uma próxima etapa.
+# A compra de itens ainda não está implementada nesta versão.
+shop:
+  items:
+    item1:
+      name: "&bEspada Lendária"
+      cost: 100
+      commands:
+        - "give {player} diamond_sword 1"
+    item2:
+      name: "&6Chave VIP"
+      cost: 250
+      commands:
+        - "give {player} tripwire_hook 1"
